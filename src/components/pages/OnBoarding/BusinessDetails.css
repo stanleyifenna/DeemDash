@@ -1,0 +1,366 @@
+.list11 {
+    background-color: #FFFFFF;
+    height: 38px;
+    color: #000000;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 2.5px;
+  }
+
+  
+.businessSection {
+    background-color: #ffffff;
+    top: 214px;
+    width: 519px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 974px;
+    position: absolute;
+    box-shadow: 0px 0px 32px rgba(179, 179, 179, 0.25);
+}
+
+
+
+.next-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    font-size: 16px;
+    left: 88px;
+    top: 91%;
+    width: 343px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #1A71FF;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 310px;
+    top: 38px;
+    
+  }
+
+  .businessDetails {
+    position: absolute;
+    top: 136px;
+    width: 363px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+  .soleTrader {
+      position: absolute;
+      top: 32px;
+      height: 64px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      color: #000000;
+      width: 343px;
+      border: 1PX solid #EFEFEF;
+      border-radius: 8px;
+      box-sizing: border-box;
+      background-color: #F7F7F7;
+  }
+
+  .sole-Trader {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 120px;
+    top: 16px;
+}
+  
+  .registered-Business {
+    position: absolute;
+    top: 16px;
+    width: 363px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 90px;
+}
+
+.registeredBusiness {
+    position: absolute;
+    top: 106px;
+    height: 64px;
+    line-height: 24px;
+    color: #000000;
+    width: 343px;
+    border: 1PX solid #EFEFEF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.registeredBusiness:hover, .soleTrader:hover {
+    border: 1PX solid #1A71FF; 
+}
+
+  
+.businessName {
+    position: absolute;
+    left: 17%;
+    right: 70.85%;
+    bottom: 79.01%;
+    width: 100px;
+    top: 20%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+  
+.business-Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+  
+.businessCategory {
+    position: absolute;
+    left: 17%;
+    right: 64.43%;
+    bottom: 79.01%;
+    width: 343px;
+    top: 30%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.business-Category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 32.05%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 53px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+  
+.businessEmail {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 40%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.business-Email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.businessPhone {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 50%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.business-Phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.businessWebsite {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 60%;
+    width: 150px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+
+.business-Website {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.businessState {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 70%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+
+.business-State {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 128px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.businessCity {
+    position: absolute;
+    left: 52.5%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 70%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.business-City {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 128px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+
+.businessAddress {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 80%;
+    width: 150px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.business-Address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+
+
+
+

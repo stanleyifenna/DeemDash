@@ -1,0 +1,149 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feautredbackground {
+      background-color: #ffffff;
+  }
+  .featuredItem {
+    flex: 1;
+    margin: 30px 20px;
+    background-color: #1A71FF;
+    padding: 65px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  .featuredItem2 {
+    flex: 1;
+    margin: 30px 20px;
+    background-color: #F4F4F4;
+    padding: 65px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .featuredRate {
+      background-color: #ffffff;
+      border-radius: 12px;
+      height: 35px;
+      width: 72px;
+      margin-left: 200px;
+      margin-top: 15px;
+  }
+
+  .featuredCircle {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin-left: 480px;
+    margin-top: -30px;
+}
+
+  .featuredTitle{
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 500;
+      padding-left: 200px;
+  }
+  
+  .featuredTitle2{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    padding-left: 0px;
+}
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+
+  .featuredMoney{
+      font-size: 24px;
+      font-weight: 600;
+      color: #ffffff;
+      padding-left: 190px;
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 14px;
+      padding-top: 5px;
+  }
+
+  
+  .featuredArrow {
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+  
+  .featuredIcon{
+      font-size: 13px;
+      margin-left: 5px;
+      color: #313131;
+  }
+  
+  
+  .featuredleft {
+      font-size: 14px;
+      color: #ffffff;
+      padding-top: 15px;
+      font-weight: 230;
+  }
+  .featuredright {
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 15px;
+    font-weight: 230;
+    padding-left: 300px;
+}
+ 
+.featuredDot {
+    color: #00E676;
+    font-size: 15px;
+}
+
+.featureddot {
+    color: #FFEBAD;
+    font-size: 15px;
+}
+
+.recentSub {
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.featuredSub {
+    font-size: 20px;
+}
+
+.featuredAmount {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.verticalLine {
+  border-left: 1px solid #E5E5E5;
+  height: 80px;
+  position: absolute;
+  margin-left: 80px;
+  padding-bottom: 0px;
+}
+
+.pendingSub {
+    margin-top: -63px;
+    padding-left: 300px;
+}
+
+.pendingAmount {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 320px;
+}

@@ -1,0 +1,322 @@
+.subAccount   {
+    padding: 14px 40px;
+}
+
+.sub-account {
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    width: 200px;
+    top: 35px;
+    left: 265px;
+}
+
+.subSearch {
+    position: absolute;
+    top: 35px;
+    left: 1000px;
+}
+
+.search {
+    display: block;
+    box-sizing: border-box;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    border: none;
+    padding: 0 30px;
+    
+}
+
+.searchIcon {
+  color: #000000;
+  padding-left: 180px;
+  margin-top: -27px;
+}
+.transactionDate{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-date {
+    position: absolute;
+    top: 34px;
+    left: 1340px;
+    display: flex;
+}               
+
+
+.fiPlus {
+    font-size: 18px;
+}
+
+.transactionFilter{
+    width: 70px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;   
+}
+
+.sub-filter {
+    position: absolute;
+    top: 34px;
+    left: 1240px;
+    display: flex;
+    }
+
+.transactionDelete{
+    width: 70px;
+    height: 40px;
+    background-color: #FF4F33;
+    border-radius: 4px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.delete {
+    display: flex;
+    position: absolute;
+    top: 34px;
+    left: 1410px;
+}
+
+.sub-account-details-right {
+    width: 580px;
+    height: 326px;
+    background-color: #F0f6fF;
+    border-radius: 8px;
+    color: #000000;
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 325px;
+}
+
+.details-right {
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 24px;
+    top: 30px;
+    left: 50px;
+    color: #002766;
+}
+
+.station-name {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 90px;
+    left: 50px;
+ }
+
+ .name-left {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    font-weight: 500;
+    top: 0px;
+    width: 200px;
+    left: 330px;
+ }
+
+ .account-type {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 130px;
+    left: 50px;
+ }
+
+ .left-side {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 0px;
+    width: 200px;
+    left: 330px;
+ }
+
+ .staff-name {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 170px;
+    left: 50px;
+ }
+
+ .mobile-number {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 210px;
+    left: 50px;
+ }
+
+ .date-created {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 250px;
+    left: 50px;
+ }
+
+.sub-account-details-left {
+    width: 580px;
+    height: 326px;
+    background-color: #FFFFFF  ;
+    border-radius: 8px;
+    color: #595959;
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 960px;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+}
+
+.details-left {
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 24px;
+    top: 30px;
+    left: 50px;
+    color: #002766;
+}
+
+
+.dash {
+    position: absolute;
+    border: 1px dashed #d7d7d7;
+    width: 80%;
+    left: 50px;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transaction-count {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 100px;
+    left: 50px;
+    color: #595959;
+ }
+
+ .lefty-side {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 0px;
+    width: 200px;
+    left: 290px;
+    color: #000000;
+ }
+
+ .total-amount {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 150px;
+    left: 50px;
+    color: #595959;
+ }
+
+ .payment-method {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 200px;
+    left: 50px;
+    color: #595959;
+ }
+ 
+ .qrCode {
+     width: 80px;
+     height: 24px;
+     background-color: #DBEAFF;
+     color: #1A71FF;
+     border-radius: 4px;
+     padding: 6px;
+     }
+
+ .qr-Code {
+    font-size: 14px;
+    position: absolute;
+    line-height: 24px;
+    top: 0px;
+    width: 200px;
+    left: 290px;
+ }
+
+
+ .transaction-timeline {
+    font-size: 16px;
+    position: absolute;
+    line-height: 24px;
+    top: 250px;
+    left: 50px;
+    color: #595959;
+ }
+
+ .table-Sub {
+    font-size: 16px;
+    position: absolute;
+    line-height: 16px;
+    font-weight: 500;
+    top: 555px;
+    left: 325px;
+    color: #282828;
+ }
+
+ .small-line{
+    width: 40px;
+    height: 3px;
+    background-color: #65bf73;
+    position: absolute;
+    top: 575px;
+}
+
+ .transactionExport{
+    width: 70px;
+    height: 40px;
+    background-color: #1A71FF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.sub-export {
+    display: flex;
+    position: absolute;
+    top: 555px;
+    left: 1470px;
+}
+
+       
+
+
+ 

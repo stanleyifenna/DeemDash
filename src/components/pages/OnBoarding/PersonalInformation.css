@@ -1,0 +1,342 @@
+.list11 {
+    background-color: #FFFFFF;
+    height: 38px;
+    color: #000000;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 2.5px;
+  }
+
+  
+.personalSection {
+    background-color: #ffffff;
+    top: 214px;
+    width: 519px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 744px;
+    position: absolute;
+    box-shadow: 0px 0px 32px rgba(179, 179, 179, 0.25);
+}
+
+
+
+.next-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    font-size: 16px;
+    left: 88px;
+    top: 91%;
+    width: 343px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #1A71FF;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 310px;
+    top: 38px;
+    
+  }
+
+  .personalDetails {
+    position: absolute;
+    top: 136px;
+    width: 463px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+  
+  
+.genderName {
+    position: absolute;
+    left: 17%;
+    right: 70.85%;
+    bottom: 79.01%;
+    top: 5%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.gender-Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+  
+.firstName {
+    position: absolute;
+    left: 17%;
+    right: 64.43%;
+    bottom: 79.01%;
+    width: 343px;
+    top: 17%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.first-Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 32.05%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 53px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+  
+.lastName {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 29%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.last-Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.identificationType {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 41%;
+    width: 200px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.identification-Type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+
+.identificationNumber {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 53%;
+    width: 200px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.identification-Number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 311px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+
+.birthday {
+    position: absolute;
+    left: 17%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 65%;
+    width: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+
+.Birthday {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 70px;
+    border-radius: 8px;
+    height: 53px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.day {
+    position: absolute;
+    left: 41.5%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 65%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+.Day {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 60px;
+    border-radius: 8px;
+    height: 53px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+.year {
+    position: absolute;
+    left: 64.5%;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 65%;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+
+
+.Year {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 30.86%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 60px;
+    border-radius: 8px;
+    height: 56px;
+    border: none;
+    background: #EFEFEF;
+    color: #000000;
+}
+
+
+.chose-File {
+    position: absolute;
+    left: 120px;
+    right: 71.43%;
+    bottom: 79.01%;
+    top: 20px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+
+.choseFile {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    top: 594px;
+    left: 88px;
+    right: 0%;
+    bottom: 0%;
+    width: 343px;
+    border-radius: 8px;
+    height: 64px;
+    border: 1px dashed #7B7B7B;
+    background: #EFEFEF;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+
+
+
+
