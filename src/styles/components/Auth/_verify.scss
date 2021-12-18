@@ -1,0 +1,106 @@
+.verify {
+    min-height: 100vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    background: $backGroundPrimary;
+    &-wrap {
+        @extend %flex;  
+        flex-direction: column;
+        padding: 0 24px;
+        img {
+            @extend %flex;  
+            width: 100%;
+            padding: 40px 0;
+        }
+        .verify-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            form {
+                max-width: 448px;
+                height: auto;
+                width: 100%;
+                display: grid;
+                padding: 16px 32px;
+                border-radius: 8px;
+                color: $secondaryColor;
+                border: none;
+                z-index: 1;
+                box-shadow: $boxShadow;
+                background: $white;
+                margin-bottom: 28px;
+                img {
+                    @extend %flex;  
+                    width: 10%;
+                    padding: 32px 0;
+                    margin-left: 10.5rem;
+                    @media screen and (max-width: 480px) {
+                        margin-left: 8rem;
+                    }
+                    @media screen and (max-width: 375px) {
+                        margin-left: 6.8rem;
+                    }
+                }
+                h2 {
+                    color: $dark;
+                    margin-top: 10px;
+                    margin-bottom: 8px;
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    @extend %flex;  
+                }
+                h4 {
+                    @extend %flex;  
+                    @extend %textVariationOne;
+                    color: $grey;
+                    margin-bottom: 32px;
+                    text-align: center;
+                }
+                input {
+                    @extend %inputOne;
+                    margin-bottom: 32px;
+                }
+                p {
+                    @extend %flex;  
+                    @extend %textVariationOne;
+                    color: $grey;
+                    margin-bottom: 32px;
+                }
+                button {
+                    @extend %inputTwo;
+                    @extend %textVariationThree;
+                    margin-bottom: 32px;
+                }
+            }
+            .verify-create {
+                @extend %flex;  
+                @extend %inputThree;
+                max-width: 310px;
+                margin-left: 3.5rem;
+                margin-bottom: 2rem;
+                display: grid;
+                 @media screen and (max-width: 480px) {
+                     margin-left: 1.5rem;
+                     padding: 16px;                   
+                 }
+                 @media screen and (max-width: 375px) {
+                    margin-left: 0.5rem;
+                  
+                }
+                p {
+                    color: $grey;
+                    span {
+                        color: $primaryColor;
+                    }
+                }
+            } 
+        }
+       
+    }
+}

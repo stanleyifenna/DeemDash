@@ -1,0 +1,50 @@
+.sidebar {
+    width: 284px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: $backGroundPrimary;
+    @media screen and (max-width: 768px) {
+       display: none;
+      }
+    &-brand {
+        padding: 1rem 0 3rem 2rem;
+    }
+    &-menu {
+        color: $secondaryColor;
+        @extend %textVariationTwoone;
+        li {
+            width: 100%;
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+            .drop-down {
+                padding-left: 1.8rem;
+              }
+        }
+        .dashboard {
+            width: 100%;
+            margin-bottom: 2.5rem;
+            color: $dark;
+            padding-left: 1rem;
+            @extend %textVariationTwotwo;
+            a {
+                background-color: $backTetiary;
+                padding: .7rem 8rem .7rem 1rem;
+                border-radius: 8px;
+            }
+        }
+        .menu {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .out {
+            width: 100%;
+            margin-top: 12rem;
+        }
+        span {
+            display: inline-block;
+            padding-right: .6rem;
+        }
+    }
+}

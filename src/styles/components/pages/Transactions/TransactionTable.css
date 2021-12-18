@@ -1,0 +1,14 @@
+.title {
+    background: #f7f7f7;
+}
+
+.qr-code {
+    height: 32px;
+    width: 80px;
+    background: #DBEAFF;
+    border-radius: 4px;
+    align-items: center;
+    top: 0px;
+    flex-direction: row;
+    color: #1A71FF;
+}

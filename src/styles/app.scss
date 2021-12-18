@@ -1,0 +1,32 @@
+// CORE
+@import './core/fonts';
+@import './core/variables';
+@import './core/overwrite';
+@import './core/utility';
+@import './core/notFound';
+
+// Authorization Page
+@import './components/Auth/failed';
+@import './components/Auth/login';
+@import './components/Auth/register';
+@import './components/Auth/success';
+@import './components/Auth/verify';
+@import './components/Auth/forgot';
+
+// Global
+@import './components/Globals/sidebar';
+@import './components/Globals/topbar';
+@import './components/Globals/footer';
+
+// Home
+@import './components/Home/homesection';
+@import './components/Home/homesection2';
+@import './components/Home/homesection3';
+@import './components/Home/chart';
+
+
+
+
+
+
+

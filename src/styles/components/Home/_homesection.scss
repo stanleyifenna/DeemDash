@@ -1,0 +1,99 @@
+.main {
+    margin-top: 24px;
+    padding: 0 24px 0 30px;
+    @media screen and (max-width: 768px) {
+    padding: 0 24px;  
+    }
+    .home-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.6rem;
+        @media screen and (max-width: 960px) {
+          grid-template-columns: repeat(1, 1fr); 
+        }
+        .card {
+            @extend %flexx;  
+            padding: 3.5rem 24px;
+            background: $primaryColor;
+            border-radius: 16px;
+            color: $white;
+            height: 232px;
+
+            h3 {
+              @extend %textVariationFour;  
+              @extend %flex;  
+              margin-bottom: 1rem;
+              margin-top: -1.5rem;
+            }
+            h2 {
+                @extend %textVariationFive;  
+                @extend %flex;  
+                margin-bottom: 1rem;
+              }
+              .mini-card {
+                @extend %flex;  
+                background: $white;
+                color: $dark;
+                border-radius: 12px;
+                padding: .2rem 0;
+                width: 72px;
+                margin-bottom: 1rem;
+                margin-left: 7.5rem;
+                @media screen and (max-width: 375px) {
+                   margin-left: 5.5rem;
+                    
+                    }
+                .percentage {
+                   padding-right: 9px;
+                }
+              }
+              .home-customers {
+                padding-top: 1.5rem;
+                @extend %textVariationOne;  
+                .c-left {
+                    padding-right: 60px; 
+                    @media screen and (max-width: 375px) {
+                        padding-left: 0px;  
+                        }
+                }
+                .c-right {
+                    padding-left: 60px;
+                    @media screen and (max-width: 375px) {
+                        padding-left: 0px;  
+                        }
+                    
+                }
+              }
+        }
+        .cards {
+            @extend %flexx;  
+            padding: 3.5rem 24px;
+            background: $white;
+            border-radius: 16px;
+            color: $dark;
+            border: 1px solid #EFEFEF;
+            height: 232px;
+            h3 {
+                @extend %textVariationFour;  
+                @extend %flex;  
+                margin-bottom: 1rem;
+                margin-top: -1.5rem;
+                // padding-right: 20rem;
+
+              }
+              .o-cards {
+                @extend %flex; 
+                width: 100%; 
+                padding-right: 1rem;
+                justify-content: space-between;
+                h1 {
+                    color: $secondaryColor;
+                    font-size: 56px;
+                    //  margin-left: 14rem;
+
+                }
+
+              }
+        }
+    }
+}

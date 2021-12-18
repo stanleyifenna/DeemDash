@@ -1,0 +1,167 @@
+.register {
+    min-height: 100vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    background: $backGroundPrimary;
+    .link {
+        color: $primaryColor;
+    }
+    &-wrap {
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 24px;
+          
+        .row {
+            display: flex;
+            margin: 0 -15px -15px -15px;
+            flex-wrap: wrap;
+            align-items: center;
+            .column {
+                margin-bottom: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                flex: 1;
+                max-width: 50%;
+                flex-basis: 50%;
+                @media screen and (max-width: 768px) {
+                  max-width: 100%;
+                  flex-basis: 100%;
+                  display: flex;
+                  justify-content: center;
+                }
+                .image-wrap {
+                    margin-top: -17rem;
+                    @media screen and (max-width: 768px) {
+                      margin-top: 4rem;
+                       
+                      }
+                    h2 {
+                        color: $secondaryColor;
+                        margin-top: 37px;
+                        font-weight: 600;
+                        font-size: 34px;
+                        line-height: 48px;
+                    }
+                    p {
+                        padding-top: 8px;
+                        color: $secondaryColor;
+                        @extend %textVariationTwo;
+                    }
+                }
+                .wrapper {
+                    padding-top: 5rem;
+                   flex-direction: column;
+                   @extend %flex;  
+                   height: 100%;
+                   @media screen and (max-width: 768px) {
+                    margin-top: -3rem;
+                    }
+                   form {
+                    max-width: 448px;
+                    height: auto;
+                    width: 100%;
+                    display: grid;
+                    padding: 16px 32px;
+                    border-radius: 8px;
+                    color: $secondaryColor;
+                    border: none;
+                    z-index: 1;
+                    box-shadow: $boxShadow;
+                    background: $white;
+                    margin-bottom: 28px;
+                    label {
+                        color: $grey;
+                        @extend %textVariationTwo;
+                        margin-bottom: 8px;
+                    }
+                    select {
+                        @extend %inputOne;
+                        margin-bottom: 16px;
+                        option {
+                          @extend %textVariationTwo;
+                          padding: 10px 0;
+                        }
+                    }
+                    input {
+                        @extend %inputOne;
+                        margin-bottom: 16px;
+                    }
+                    button {
+                        @extend %inputTwo;
+                        @extend %textVariationThree;
+                        margin-top: 24px;
+                        margin-bottom: 24px;
+                        .links {
+                        color: $white;
+                        }
+                    }
+                    p {
+                        @extend %textVariationOne;
+                        color: $grey;
+                        margin-bottom: 24px;
+                        .icon { 
+                             color: $primaryColor; 
+                             font-size: 20px;
+                             margin-right: .1rem;
+                        }
+                    }
+                   }
+                   .register-create {
+                    @extend %flex;  
+                    @extend %inputThree;
+                    max-width: 310px;
+                    margin-left: 0rem;
+                    display: grid;
+                    margin-bottom: 40px;
+                     @media screen and (max-width: 480px) {
+                        padding: 16px;                 
+                     }
+                    p {
+                        color: $grey;
+                        span {
+                            color: $primaryColor;
+                        }
+                    }
+                } 
+                }
+            }
+        }
+        .login-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          
+           
+            .login-create {
+                @extend %flex;  
+                @extend %inputThree;
+                max-width: 310px;
+                margin-left: 3.5rem;
+                display: grid;
+                margin-bottom: 40px;
+                 @media screen and (max-width: 480px) {
+                     margin-left: 1.5rem;
+                     padding: 16px;                 
+                 }
+                 @media screen and (max-width: 375px) {
+                    margin-left: 0.5rem;
+                  
+                }
+                p {
+                    color: $grey;
+                    span {
+                        color: $primaryColor;
+                    }
+                }
+            } 
+        }
+       
+    }
+}

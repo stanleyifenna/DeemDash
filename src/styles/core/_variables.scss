@@ -1,0 +1,132 @@
+$primaryColor: #1a71ff;
+$primaryShade: #0f76d1;
+$secondaryColor: #002766;
+$white: #ffffff;
+$dark: #000000;
+$red: #ff4f33;
+$grey: #595959;
+$backGroundPrimary: #f4f8ff;
+$backGroundSecondary: #f7F7F7;
+$backTetiary: #CCDFFF;
+$boxShadow: 0px 4px 32px rgba(223, 235, 255, 0.9);
+
+
+$accent: #c2240e;
+$secondaryShade: #5b5656;
+$tertiaryShade: #828181;
+$clear: #ffffff;
+$clear-2: #f1eaef;
+$clear-3: #f4f4f4;
+$modalOverlay: rgba(51, 45, 45, 0.3);
+$darkShade: rgba(0, 0, 0, 0.2);
+$offWhite: #c4c4c4;
+$blueShade: #57c1fd;
+$blueAccent: #0794e3;
+$link: #0580c6;
+$blueLight: #bde3f8;
+$yellow: #ffc700;
+$purple: #795fa2;
+$themeShade: linear-gradient(90.1deg, #efa3a3 12.3%, #e69798 84.67%);
+
+%pointer {
+  cursor: pointer;
+}
+
+%flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flexx {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+%inputOne {
+  background: #f7f7f7;
+  border-radius: 8px;
+  border: none;
+  padding: 19px 16px;
+  height: 56px;
+}
+
+%inputTwo {
+  background: #1a71ff;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 19px 16px;
+  height: 56px;
+  &:hover {
+    background: #0f76d1;
+  }
+}
+
+%inputThree {
+  background: #ffff;
+  border-radius: 24px;
+  border: none;
+  padding: 16px 54px;
+}
+
+%textVariationOne {
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+%textVariationTwo {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+%textVariationTwoone {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+%textVariationTwotwo {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+%textVariationThree {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+%textVariationFour {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+%textVariationFive {
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.link {
+  color: #ffffff;
+}
+
+.link2 {
+  color: #1a71ff;
+}
+
+
+
