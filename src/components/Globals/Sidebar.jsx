@@ -11,7 +11,7 @@ function Sidebar() {
               <div className='sidebar-menu'>
                   <ul>
                       <li className='dashboard'>
-                          <a href="htt">
+                          <a href="http">
                           <span><img src={Calender} alt="" width="25px" height="25px" /></span>Merchant
                           </a>
                       </li>
